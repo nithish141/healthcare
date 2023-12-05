@@ -1,0 +1,21 @@
+.user-login{
+  color: black;
+  margin-top: 40px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(143, 255, 221);
+  height: 700px;
+  margin-left: 10px;
+}
+.admin-login{
+    margin-left: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(143, 255, 221);
+    height: 700px;
+    margin-top: 40px;
+}
+p{
+  color: black;
+  margin-bottom: 5px;
+}

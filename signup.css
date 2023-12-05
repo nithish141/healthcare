@@ -1,0 +1,114 @@
+.main-div{
+  display: grid;
+  margin: 0 auto;
+  margin-top: 150px;
+  max-width: 900px;
+  height: 500px;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 20px;
+  box-shadow: 0 0 7px 0 rgba(128, 128, 128, 0.249);
+}
+.left{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius:10px ;
+  font-weight: bolder;
+}
+.right{
+  background: linear-gradient(to right,  #3caced,#5890ff);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius:10px ;
+  border-top-left-radius: 150px;
+  border-bottom-left-radius: 150px;
+  padding-left: 70px;
+  color:white;
+
+}
+.signIn-header{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: -50px;
+ 
+}
+.label{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.input{
+  width:200px;
+}
+.sign-with{
+  font-weight:lighter;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+  text-align: center;
+  margin-left: -70px;
+}
+.signin-img-div{
+  padding-left: 105px;
+}
+.signin-img{
+  width: 36px;
+  height:36px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.input-box{
+  height:36px;
+  margin-bottom: 10px;
+  width:250px;
+  margin-left: 70px;
+  border: 0.05px rgba(0, 0, 0, 0.347) solid;
+  padding-left: 10px;
+}
+.login-button{
+  background-color: #4881f3;
+  color: white;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  margin-left: 70px;
+  margin-bottom: 10px;
+  height: 36px;
+  width:150px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.forgot-pass{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 70px;
+  font-size: 17px;
+  text-decoration: none;
+}
+.signUp-header{
+  margin-top:120px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sign-up{
+  font-size: 20px;
+  font-weight: 200;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sign-up-button{
+  background-color: transparent;
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+  border: 1px white solid;
+  height:40px;
+  width:150px;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+button:hover{
+  cursor: pointer;
+}
+.transition-effect {
+  transition: all 0.7s ease-in;
+}
+
